@@ -1,6 +1,10 @@
 # NewGrid
 
-React datagrid
+React datagrid monorepo.
+
+Following packages are available:
+
+- 
 
 ## Managing the Workspace
 
@@ -15,7 +19,7 @@ pnpm exec nx generate @nx/react:library \
     --unitTestRunner=jest \
     --bundler=rollup  \
     --component=false \
-    --importPath=@yournamespace/some-name \
+    --importPath=@newgrid/some-name \
     --publishable=true  \
     --style=none \
     --tags="a b c" \
@@ -28,7 +32,7 @@ pnpm exec nx generate @nx/js:library \
     --bundler=rollup \
     --directory=apps \
     --publishable=true \
-    --importPath=@vebgen/g11n-cli \
+    --importPath=@newgrid/g11n-cli \
     --includeBabelRc=true \
     --testEnvironment=node \
     --no-interactive --dry-run
